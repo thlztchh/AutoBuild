@@ -1,0 +1,27 @@
+PODS:
+  - MQTTClient (0.15.2):
+    - MQTTClient/Core (= 0.15.2)
+  - MQTTClient/Core (0.15.2):
+    - MQTTClient/Manager
+    - MQTTClient/Min
+  - MQTTClient/Manager (0.15.2):
+    - MQTTClient/Min
+  - MQTTClient/Min (0.15.2)
+  - XGPush (2.3)
+
+DEPENDENCIES:
+  - MQTTClient
+  - XGPush
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MQTTClient
+    - XGPush
+
+SPEC CHECKSUMS:
+  MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
+  XGPush: fa2e9fce1895ea238bcd92dd0a5189a5452e15f2
+
+PODFILE CHECKSUM: 362bda0533e80b0f18fb1bd1c15a81395b48cd3b
+
+COCOAPODS: 1.7.0.beta.1

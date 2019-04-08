@@ -1,0 +1,25 @@
+//
+//  Beta.xcconfig
+//  Test
+//
+//  Created by thlztc on 2019/4/8.
+//  Copyright © 2019 thlztc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+// 测试版正式环境
+
+CONFIG_APP_NAME = Beta
+
+CONFIG_APP_VERSION = 1.0.1
+
+//PRODUCT_BUNDLE_IDENTIFIER = com.hadlinks.xxxBeta
+
+//CONFIG_APP_ICON = AppIcon-Beta
+
+#include "Common.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = Beta=1 TestEnvironment=0

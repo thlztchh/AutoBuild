@@ -1,0 +1,24 @@
+//
+//  Test.xcconfig
+//  Test
+//
+//  Created by thlztc on 2019/2/26.
+//  Copyright © 2019 thlztc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+// 测试版测试环境
+
+CONFIG_APP_NAME = Test
+
+CONFIG_APP_VERSION = 0.0.1
+
+//PRODUCT_BUNDLE_IDENTIFIER = com.hadlinks.xxxTest
+
+//CONFIG_APP_ICON = AppIcon-Test
+
+#include "Common.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = Test=1 TestEnvironment=1

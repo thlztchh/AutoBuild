@@ -1,0 +1,17 @@
+//
+//  Common.xcconfig
+//  Test
+//
+//  Created by thlztc on 2019/2/26.
+//  Copyright © 2019 thlztc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+
+ENABLE_BITCODE = NO
+
+IPHONEOS_DEPLOYMENT_TARGET = 9.0
+

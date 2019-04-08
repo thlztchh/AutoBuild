@@ -1,0 +1,26 @@
+//
+//  Debug.xcconfig
+//  Test
+//
+//  Created by thlztc on 2019/2/26.
+//  Copyright © 2019 thlztc. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+// 开发模式
+CONFIG_APP_NAME = Debug
+
+CONFIG_APP_VERSION = 0.0.1
+
+//PRODUCT_BUNDLE_IDENTIFIER = com.hadlinks.xxxDebug
+
+//CONFIG_APP_ICON = AppIcon-Debug
+
+#include "Common.xcconfig"
+
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 TestEnvironment=1
+
+
